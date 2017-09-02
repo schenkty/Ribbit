@@ -25,3 +25,17 @@ There is a memory leak in the app, please fix it. Steps to reproduce the memory 
 
 Fix Bug #6:Remove deprecated APIs
 As Apple introduces newer versions of the iOS SDK, it also introduces new APIs and retires the old ones. The APIs that are no longer supported by the new version of the SDK are known as deprecated APIs. When you build the app you will see in the issue navigator that there are yellow triangles which warn you that the APIs are no longer available. Modify the app to use the latest version of the APIs. Once you implement the newer version, the warnings will go away. Make sure that by implementing the new API you do not take away the existing functionalities.
+
+
+#Extra Credit
+
+To get an "exceeds" rating, you can expand on the project in the following ways:
+
+Implement missing features
+Implement all the missing features: sign-up, login, sending an image, deleting the image, friends selection, plus a workflow for when the user forgets their password.
+
+Implement designs from mockups
+Design the user interface for the app based on the mockups provided. Other resources like the app icon, launch and background images are provided in the starter file.
+
+Add a backend
+The starter app is like a prototype. It has all the features of a fully functional app, but without proper backend processing service, it does not actually work. The app originally worked with a service called Parse which is no longer available. There are several options you have: you can setup your own Parse server or use an alternatives like: Firebase. This looks like a monumental task but it is an extremely useful exercise and experience to have for your under your belt
