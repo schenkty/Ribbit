@@ -27,7 +27,7 @@ Fix Bug #6:Remove deprecated APIs
 As Apple introduces newer versions of the iOS SDK, it also introduces new APIs and retires the old ones. The APIs that are no longer supported by the new version of the SDK are known as deprecated APIs. When you build the app you will see in the issue navigator that there are yellow triangles which warn you that the APIs are no longer available. Modify the app to use the latest version of the APIs. Once you implement the newer version, the warnings will go away. Make sure that by implementing the new API you do not take away the existing functionalities.
 
 
-#Extra Credit
+# Extra Credit
 
 To get an "exceeds" rating, you can expand on the project in the following ways:
 
